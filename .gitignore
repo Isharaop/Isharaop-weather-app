@@ -13,3 +13,5 @@ Thumbs.db
 
 # Node.js (in case of future expansion)
 node_modules/
+
+videos/
