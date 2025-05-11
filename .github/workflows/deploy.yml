@@ -1,0 +1,21 @@
+name: CI - Check Weather App
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  weather-app-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Run basic HTML validation
+        run: |
+          echo "Simulating HTML/CSS/JS validation for Weather App"
+          echo "You can expand this later with real tools like HTMLHint or Lighthouse"
+
+      - name: Done
+        run: echo "Weather app build check complete!"

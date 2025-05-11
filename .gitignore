@@ -1,0 +1,15 @@
+# Ignore API key or config file (if used in future)
+.env
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Logs and caches
+*.log
+*.cache
+
+# Node.js (in case of future expansion)
+node_modules/
